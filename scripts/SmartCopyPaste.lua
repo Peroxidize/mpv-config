@@ -11,8 +11,8 @@ local o = {
 
 	-----Script Settings----
 	device = 'auto', --'auto' is for automatic device detection, or manually change to: 'windows' or 'mac' or 'linux'
-	linux_copy = 'xclip -silent -selection clipboard -in', --copy command that will be used in Linux. OR write a different command
-	linux_paste = 'xclip -selection clipboard -o', --paste command that will be used in Linux. OR write a different command
+	linux_copy = 'wl-copy', --copy command that will be used in Linux. OR write a different command
+	linux_paste = 'wl-paste', --paste command that will be used in Linux. OR write a different command
 	mac_copy = 'pbcopy', --copy command that will be used in MAC. OR write a different command
 	mac_paste = 'pbpaste', --paste command that will be used in MAC. OR write a different command
 	windows_copy = 'powershell', --'powershell' is for using windows powershell to copy. OR write the copy command, e.g: ' clip'
