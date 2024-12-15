@@ -2,7 +2,7 @@
 
 My mpv configuration for self reminder
 
-> USER\scoop\persist\mpv\portable_config\scripts
+> /.config/mpv
 
 ## Scripts
 
